@@ -3,11 +3,11 @@
 
 def key_for_min_value(name_hash)
 
-  lowest_value = 0
+  low_val = 0
 
   name_hash.each do |k, v|
-    if v < lowest_value
-      lowest_value = v
+    if v < low_val
+      low_val = v
       associated_name = v
     end
 
