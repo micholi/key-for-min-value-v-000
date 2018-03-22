@@ -8,9 +8,9 @@ def key_for_min_value(name_hash)
   name_hash.each do |k, v|
     if v < low_val
       low_val = v
-      associated_name = v
+      name = k
     end
-
+name
   end
 
 end
